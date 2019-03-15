@@ -1,0 +1,154 @@
+body {
+    background-image: url("http://www.valuebridgeinc.com/wp-content/uploads/2016/08/Ukraine-Flag-Background-500x500.png");background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+    vertical-align: baseline;
+    display: block;
+}
+
+#container {
+    margin-top: 25px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.titleBox {
+    font-family: 'Amatic SC', cursive;
+    padding: 0px;
+    margin-right: 0px;
+    height: 100px;
+    width: 400px;
+    background-color: orange;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    justify-content: center;
+    border: solid black;
+}
+ 
+
+ #instructionBox {
+    font-size: 15px;
+    font-family:'Amatic SC', cursive;
+    color:teal;
+    font-weight: 400px;
+    margin-left: 0px;
+    height: 200px;
+    width: 600px;
+    background-color:gold;
+    border: solid maroon;
+}
+
+ 
+#randomNumBox-and-scoreBox {
+    height: 200px;
+    width: 300px;
+    margin: 0 auto 10px;
+    margin-left: 5px;
+    height: 130px;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 2px solid maroon;
+}
+
+
+ #randomNumBox {
+    font-size: 40%;
+    color:goldenrod;
+    margin-top: 10px; 
+    height: 100%;
+    width: 49%;
+    background-color:teal;
+    border: 2px solid maroon;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+}
+
+#randomNumber {
+    padding-right: 50px;
+    color: gold;
+    text-align: center;
+    font-size: 60px;
+    border: maroon;
+    
+}
+
+
+
+.scoreBox {
+    column-count: 3;
+    box-sizing: border-box;
+    padding: 0;
+    margin-bottom: 30px;
+    margin-right: 60px;
+    height: 100%;
+    width: 49%;
+    background-color:gold;
+    border: maroon;
+    float: left;
+}
+
+
+#win-or-lose {
+background-color: gold;
+color:gold;
+font-size: 100%;
+font-weight: 400%;
+
+}
+
+#crystalButtonsBox {
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 50px;
+    height: 120px;
+    width: 450px;
+    background-color:turquoise;
+    border: solid maroon;
+    
+}
+
+.box{
+    display: flex;
+    width: 90px;
+    height: 95px;
+    background-color;
+    margin: 10px;
+    float: left;
+    overflow: hidden;
+}
+
+#current-score {
+    color: gold;
+    float: left;
+    clear: both;
+    width: 500px;
+    height: 105px;
+    background-color: #2a967d;
+    margin: 10px auto;
+    border: 2px solid maroon;
+
+}
+
+
+
+img{
+    height: 100px;
+    width: 100px;
+
+}
+
+
+
+

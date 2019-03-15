@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    
+</head>
+
+<body>
+    <div id="container-fluid">
+        
+        
+    <div class="titleBox">Crystal Collector</div>
+
+    <br>
+
+    <div id="instructionBox">
+        <b>
+            <p>You will be given a random number at the start of this game</p>
+        </b>
+
+        <b>
+            <p>There are four crystals below.By clicking on a crystal, you will a specific amount of points to your total score.</p>
+        </b>
+            
+            
+        <b>
+            <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+         </b>
+
+         <b>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </b>
+        </div>
+
+        </div>
+        
+        
+        <br>
+        
+        <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3"id="randomNumBox-and-scoreBox">
+            
+             <div id="randomNumBox">
+                <span id="randomNumber">57</span>
+                </div>
+        
+        
+        <div id="scoreBox">
+
+        <span id="win-or-lose"></span>
+        <p>
+            <b>"Wins:"</b>
+        
+        <span id="win-counter"></span>
+
+        </p>
+
+        <p>
+            <b>"Losses:"</b>
+        </p>
+    </div>
+    
+ </div>
+
+    <div id="crystalButtonsBox">
+        
+    <div type="button" class="box">
+            <img src="https://cdn3.iconfinder.com/data/icons/gems/128/diamond_sapphire-2-512.png"  alt="bluecrystal"> 
+         </div>
+       
+     <div type="button" class="box">
+            <img src="https://cdn1.iconfinder.com/data/icons/outlined-medieval-icons-pack/200/minerals_red_stone-512.png" alt="redcrystal">
+        </div>
+
+    <div type="button" class="box">
+            <img src="https://cdn1.iconfinder.com/data/icons/crystal-1/60/purple_crystal-512.png" alt="purplecrystal">
+        </div>
+
+    <div type="button" class="box">
+            <img src="https://cdn1.iconfinder.com/data/icons/crystal-1/60/green_crystal_copy-512.png" alt="greencrystal">
+        </div>
+    </div>
+
+        <div id="current-score">
+            <h1>Your Total Score Is:</h1>
+            <span id="current-score-counter"></span>
+
+
+        </div>
+        
+        
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+        
+        <script type="text/javascript" src="assets/js/game.js"></script>
+
+
+
+    
+</body>
+</html>
