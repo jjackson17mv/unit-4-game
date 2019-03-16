@@ -1,5 +1,4 @@
-
-
+$(document).ready(function() {
 
 var wins = 0;
 var losses = 0;
@@ -11,13 +10,13 @@ var purple = 0;
 var green = 0;
 var maxScore = 0;
 
-function getRandomInt(min, max) {
+function getRandomInt(min,max) {
     return Math.floor(Math.random() * (max-min +1)) + min;
 }
 
-$(document).ready(function() {
 
-    maxScore = getRandomInt(17, 77);
+
+    maxScore = getRandomInt(19, 120);
     console.log("Max Score", maxScore);
     $("#scoreToMatch").text("Score cannot exceed: " + maxScore);
 
@@ -44,11 +43,11 @@ $(document).ready(function() {
         $("#losses").text("Losses: " + losses);
         resetGame();
     }
-})
+}
 
 $("#crys0").on("click", function() {
     if (blue === 0) {
-      purple = getRandomInt(1, 12);
+      blue = getRandomInt(1, 12);
       console.log(blue);
     }
 
@@ -57,7 +56,7 @@ $("#crys0").on("click", function() {
     checkWin();
 });
 
-    $("#gem1").on("click", function() {
+    $("#crys1").on("click", function() {
         if (red=== 0) {
           red = getRandomInt(1, 12);
           console.log(red);
@@ -67,24 +66,27 @@ $("#crys0").on("click", function() {
         checkWin();
  });
 
-    $("#gem2").on("click", function() {
-        if (purple=== 0) {
-      red = getRandomInt(1, 12);
-      console.log(purple);
+    $("#crys2").on("click", function() {
+        if (green=== 0) {
+      green = getRandomInt(1, 12);
+      console.log(green);
         }
-        score += purple;
+        score += green;
         $("#score").text("Score So Far: " + score);
     checkWin();
  });
 
-     $("#gem3").on("click", function() {
-        if (green=== 0) {
-      red = getRandomInt(1, 12);
-      console.log(green);
+     $("#crys3").on("click", function() {
+        if (purple=== 0) {
+      purple = getRandomInt(1, 12);
+      console.log(purple);
         }
-         score += green;
+         score += purple;
          $("#score").text("Score So Far: " + score);
     checkWin();
+
+    })
+
 });
 
 

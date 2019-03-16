@@ -39,7 +39,7 @@ body {
     color:teal;
     font-weight: 400px;
     margin-left: 0px;
-    height: 200px;
+    height: 300px;
     width: 600px;
     background-color:gold;
     border: solid maroon;
@@ -48,10 +48,10 @@ body {
  
 #randomNumBox-and-scoreBox {
     height: 200px;
-    width: 300px;
+    width: 400px;
     margin: 0 auto 10px;
     margin-left: 5px;
-    height: 130px;
+    height: 175px;
     padding: 0;
     border: 0;
     font-size: 100%;
@@ -72,7 +72,12 @@ body {
     margin: 0;
     padding: 0;
     border: 0;
-    display: block;
+    display: flex;
+    
+}
+
+#scoreToMatch {
+    font-size: 30px;
 }
 
 #randomNumber {
@@ -87,14 +92,15 @@ body {
 
 
 .scoreBox {
-    column-count: 3;
+    color: solid maroon;
+    height: 170px;
     box-sizing: border-box;
     padding: 0;
     margin-bottom: 30px;
     margin-right: 60px;
     height: 100%;
     width: 49%;
-    background-color:gold;
+    background-color: coral;
     border: maroon;
     float: left;
 }
@@ -109,9 +115,9 @@ font-weight: 400%;
 }
 
 #crystalButtonsBox {
-    margin-top: 20px;
+    margin-top: 55px;
     margin-left: 0px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     height: 120px;
     width: 450px;
     background-color:turquoise;
@@ -141,6 +147,10 @@ font-weight: 400%;
 
 }
 
+h1 {
+    background-color: teal;
+    height: 170px;
+}
 
 
 img{
